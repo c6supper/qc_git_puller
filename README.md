@@ -8,7 +8,7 @@ docker exec -it qc_git_puller useradd -m -G sudo `whoami`
 docker exec -it -u `whoami` qc_git_puller git config --global http.postBuffer 1048576000
 docker exec -it -u `whoami` qc_git_puller git config --global https.postBuffer 1048576000
 docker exec -it -u `whoami` qc_git_puller git config --global credential.helper store
-docker exec -it -u c6supper qc_git_puller git config --global http.sslVerify false
+docker exec -it -u `whoami` qc_git_puller git config --global http.sslVerify false
 
 docker exec -it -u `whoami` qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_la-va.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_la-va;
 docker exec -it -u `whoami` qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_qnx.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_qnx;
