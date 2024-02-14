@@ -9,5 +9,12 @@ docker exec -it -u c6supper qc_git_puller git config --global http.postBuffer 10
 docker exec -it -u c6supper qc_git_puller git config --global https.postBuffer 1048576000
 docker exec -it -u c6supper qc_git_puller git config --global credential.helper store
 
-docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/your_company/sa8295p-hqx-4-2-4-1_amss_standard_oem.git /code/sa8295p-hqx-4-2-4-1_amss_standard_oem
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/your_company/sa8295p-hqx-4-2-4-1_amss_standard_oem.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_amss_standard_oem
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_la-va.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_la-va
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_qnx.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_qnx
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_qnx-api.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_qnx-api
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_test_device.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_test_device
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_amss_standard_oem.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_amss_standard_oem
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_la.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_la
+docker exec -it -u c6supper qc_git_puller git clone https://qpm-git.qualcomm.com/home2/git/great-wall-motor-company-limited/sa8295p-hqx-4-2-4-1_hlos_dev_osh.git /code/hqx-4-2-4-1/sa8295p-hqx-4-2-4-1_hlos_dev_osh
 ```
